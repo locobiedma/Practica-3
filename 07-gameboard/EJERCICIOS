@@ -27,7 +27,7 @@ EJERCICIOS
    spec/GameBoardSpec.js. En ese fichero podrás leer una descripción
    de los requisitos definidos para este prototipo y una
    especificación del constructor GameBoard que se ha implementado en
-   este prototipo para satisfacer dichos requisito.
+   este prototipo para satisfacer dichos requisitos.
 
 3. Estudia la implementación de GameBoard: en el fichero engine.js se
    ha añadido el constructor GameBoard (en un lenguaje Orientado a
@@ -49,8 +49,8 @@ EJERCICIOS
    la clase GameBoard.
 
    Las pruebas/tests que escribas deben probar/testar única y
-   exclusivamente la funcionalidad de la clase que estás testando:
-   GameBoard en estas pruebas unitarias. Para ello deberás crear un
+   exclusivamente la funcionalidad de la clase que estás testando en
+   estas pruebas unitarias: GameBoard. Para ello deberás crear un
    objeto de clase GameBoard y escribir código en el test que pruebe
    si sus métodos tienen un comportamiento correcto, escribiendo
    sentencias expect que comprueben que dichos métodos devuelven los
@@ -64,10 +64,11 @@ EJERCICIOS
    las entradas que se proporcionan en los diferentes casos de test
    que crees. Un ejemplo de este tipo de método es
    GameBoard.overlap(). Para testarlo basta con crear parejas de
-   objetos dummy o dobles (como los actores de doblaje), y pasarlos
-   como parámetros a overlap(), comprobando que overlap() devuelve el
-   valor adecuado en función de las propiedades de los objetos dummy
-   que le hayas pasado como parámetro.
+   objetos dummy o dobles (como los actores de doblaje o los muñecos
+   de las pruebas de impacto de automóviles), y pasarlos como
+   parámetros a overlap(), comprobando que overlap() devuelve el valor
+   adecuado en función de las propiedades de los objetos dummy que le
+   hayas pasado como parámetro.
 
    Si por el contrario la principal función del método que estás
    testando es producir efectos externos en otros objetos auxiliares

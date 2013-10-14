@@ -1,5 +1,6 @@
 describe("Clase GameBoardSpec", function(){
  
+ 
     var canvas, ctx;
         beforeEach(function(){
 	    loadFixtures('index.html');
